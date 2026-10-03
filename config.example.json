@@ -1,0 +1,211 @@
+{
+  "_comment": "Формат отличается от Python-версии. Неизвестный ключ — ошибка при запуске (защита от опечаток). Ключи _comment можно удалять.",
+  "telegram_bot_token": "ВАШ_ТОКЕН_БОТА",
+  "telegram_chat_id": "-1004330674233",
+  "auto_create_topics": true,
+  "poll_interval_seconds": 90,
+  "min_poll_interval_seconds": 45,
+  "max_poll_interval_seconds": 600,
+  "adaptive_interval": true,
+  "target_success_rate": 0.85,
+  "startup_delay_seconds": 30,
+  "session_ttl_minutes": 45,
+  "categories_per_cycle": 1,
+  "pause_between_searches_seconds": [
+    3,
+    6
+  ],
+  "pause_between_categories_seconds": [
+    20,
+    40
+  ],
+  "photo_delay_seconds": [
+    1,
+    3
+  ],
+  "max_notifications_per_cycle": 8,
+  "send_photo": true,
+  "show_time": true,
+  "delete_after_hours": 47,
+  "proxies_file": "proxies.txt",
+  "defaults": {
+    "_comment": "Общие правила для всех разделов. В разделе можно переопределить любое поле; title_exclude и description_exclude раздела ДОБАВЛЯЮТСЯ к общим, title_include раздела ЗАМЕНЯЕТ общий.",
+    "min_price": 0,
+    "max_age_minutes": 120,
+    "notify_without_price": true,
+    "notify_without_age": false,
+    "notify_on_first_run": false,
+    "include_in_description": false,
+    "title_exclude": [
+      "для psp",
+      "для псп",
+      "для ps vita",
+      "для вита",
+      "для 3ds",
+      "для nintendo",
+      "для ps1",
+      "для playstation",
+      "игра для",
+      "игры для",
+      "запчаст",
+      "на разбор",
+      "донор",
+      "диск",
+      "umd",
+      "картридж",
+      "дисплей",
+      "матрица",
+      "тачскрин",
+      "шлейф",
+      "панель",
+      "плата",
+      "разъем",
+      "крышк",
+      "корпус для",
+      "динамик для",
+      "зарядк",
+      "зарядн",
+      "адаптер",
+      "блок питания",
+      "аккумулятор",
+      "акб",
+      "батаре",
+      "кабель",
+      "шнур",
+      "переходник",
+      "карта памяти",
+      "memory stick",
+      "чехол",
+      "сумка",
+      "кейс",
+      "наклейк",
+      "пленк",
+      "защитное стекло",
+      "стилус",
+      "джойстик",
+      "геймпад",
+      "retro genesis",
+      "sega",
+      "сега",
+      "dendy",
+      "денди",
+      "магистр",
+      "mega drive",
+      "мегадрайв",
+      "мега драйв",
+      "dingoo",
+      "jxd",
+      "exeq",
+      "anbernic",
+      "retroid",
+      "powkiddy",
+      "miyoo",
+      "trimui",
+      "data frog",
+      "datafrog",
+      "coolbaby",
+      "sup game",
+      "supgame",
+      "pxp",
+      "pap-k",
+      "pap gameta",
+      "gameta",
+      "rg35",
+      "rg405",
+      "rs-97",
+      "gb boy",
+      "gpd",
+      "ayaneo",
+      "odin",
+      "steam deck",
+      "встроенных игр",
+      "встроенные игры",
+      "300 игр",
+      "500 игр",
+      "800 игр",
+      "1000 игр",
+      "2000 игр",
+      "3000 игр",
+      "5000 игр",
+      "8000 игр",
+      "10000 игр",
+      "20000 игр"
+    ],
+    "description_exclude": [
+      "встроенных игр",
+      "встроенные игры",
+      "встроенными играми",
+      "игр в 1",
+      "in 1",
+      "копия psp",
+      "реплика"
+    ]
+  },
+  "categories": [
+    {
+      "name": "PSP",
+      "max_price": 5000,
+      "search_urls": [
+        "https://www.avito.ru/all/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?q=psp&s=104",
+        "https://www.avito.ru/all/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?q=%D0%BF%D1%81%D0%BF&s=104"
+      ],
+      "title_include": [
+        "psp",
+        "псп",
+        "playstation portable",
+        "play station portable",
+        "плейстейшн портабл",
+        "плейстейшен портабл"
+      ],
+      "title_exclude": [
+        "vita",
+        "вита",
+        "nintendo",
+        "нинтендо",
+        "game boy",
+        "gameboy",
+        "switch"
+      ]
+    },
+    {
+      "name": "PS Vita",
+      "max_price": 12000,
+      "search_urls": [
+        "https://www.avito.ru/all/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?q=ps+vita&s=104",
+        "https://www.avito.ru/all/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?q=%D0%BF%D1%81+%D0%B2%D0%B8%D1%82%D0%B0&s=104"
+      ],
+      "title_include": [
+        "vita",
+        "psvita",
+        "вита",
+        "псвита"
+      ],
+      "title_exclude": [
+        "nintendo",
+        "нинтендо",
+        "switch",
+        "vita tv",
+        "pstv"
+      ]
+    },
+    {
+      "name": "Nintendo 3DS",
+      "max_price": 12000,
+      "search_urls": [
+        "https://www.avito.ru/all/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?q=3ds&s=104",
+        "https://www.avito.ru/all/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?q=3%D0%B4%D1%81&s=104"
+      ],
+      "title_include": [
+        "3ds",
+        "3дс",
+        "3 ds",
+        "new3ds",
+        "n3ds"
+      ],
+      "title_exclude": [
+        "switch",
+        "r4"
+      ]
+    }
+  ]
+}
