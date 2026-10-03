@@ -1,7 +1,7 @@
 {
   "_comment": "Формат отличается от Python-версии. Неизвестный ключ — ошибка при запуске (защита от опечаток). Ключи _comment можно удалять.",
   "telegram_bot_token": "ВАШ_ТОКЕН_БОТА",
-  "telegram_chat_id": "-1004330674233",
+  "telegram_chat_id": "ID_ЧАТА",
   "auto_create_topics": true,
   "poll_interval_seconds": 90,
   "min_poll_interval_seconds": 45,
